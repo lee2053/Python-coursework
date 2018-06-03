@@ -1,0 +1,10 @@
+From the Book, Chapter 8 Exercises:
+
+8.20
+
+8.22
+
+8.35
+
+8.40 (You do not need to have your code throw a ValueError - it should just print "Illegal balance", "Overdraft", or "Negative Deposit" under each circumstance, in addition to not allowing illegal balances, overdrafts, or negative deposits.)
+
