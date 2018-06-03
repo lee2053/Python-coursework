@@ -1,0 +1,20 @@
+From the book:
+
+9.20
+
+9.21
+
+9.22
+
+ 
+
+Additionally:
+
+Create a GUI that looks and behaves like the one below:
+
+ 
+
+ 
+
+When the uses clicks Confirm Delivery it should update the display to tell the user what product they're having delivered, by what method, any addons they selected, and final an accurate total price like as shown below.
+
