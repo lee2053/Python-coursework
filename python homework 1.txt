@@ -1,0 +1,138 @@
+2.14 Start by excuting
+
+g= 'goodbye'
+
+
+(a)
+>>> g[0] == 'g'
+True
+
+(b)
+>>> g[6] == 'g'
+False
+
+(c)
+>>> (g[0] == 'g') and (g[1] == 'a')
+False
+
+(d)
+>>> g[-2] == 'x'
+False
+
+(e)
+>>> g[3] == 'd'
+True
+
+(f)
+>>> str(g[0]) == str(g[-1])
+False
+
+(g)
+>>> "tion" == str(g[-4] + g[-3] + g[-2] + g[-1])
+False
+
+2.16 Write the corresponding Python assignment statements:
+
+(a)
+>>> a = 6
+>>> b = 7
+
+(b)
+>>> c = (a + b)/2
+>>> c
+6.5
+
+(c)
+>>> var_inven=['paper', 'staples', 'pencils']
+>>> var_inven
+['paper', 'staples', 'pencils']
+
+(d)
+>>> var_inven[0] ='John'
+>>> var_inven[1] ='Fitzgerald'
+>>> var_inven[2] ='Kennedy'
+>>> var_inven
+['John', 'Fitzgerald', 'Kennedy']
+
+(e)
+>>> " ".join(var_inven)
+'John Fitzgerald Kennedy'
+
+
+2.18
+(a)
+>>> var_flower = ['rose', 'bougainvillea', 'yucca', 'marigold', 'daylilly', 'lilly of the valley']
+>>> var_flower
+['rose', 'bougainvillea', 'yucca', 'marigold', 'daylilly', 'lilly of the valley']
+
+(b)
+>>> 'potato' in var_flower
+False
+
+(c)
+>>> thorny = [var_flower[0], var_flower[1], var_flower[2]]
+>>> thorny
+['rose', 'bougainvillea', 'yucca']
+
+(d)
+>>> poisonous = [var_flower[-1]]
+>>> poisonous
+['lilly of the valley']
+
+(e)
+>>> dangerous = thorny + poisonous
+>>> dangerous
+['rose', 'bougainvillea', 'yucca', 'lilly of the valley']
+
+
+2.22
+
+num_list = []
+
+first_num =int(input("Please enter the first number:"))
+sec_num= int(input("Please enter the second number:"))
+third_num = int(input("Please enter the third number:"))
+fourth_num = int(input("Please enter the fourth number:"))
+
+num_list.append(first_num)
+num_list.append(sec_num)
+num_list.append(third_num)
+num_list.append(fourth_num)
+
+print("Your number list is:" + str(num_list))
+
+x = min(num_list)
+y = max(num_list)
+
+range_list = y-x
+
+print("The range of a list is " + str(range_list))
+
+2.28
+
+lst = [1,4,5,456,87,6,34]
+
+print("The numbers of a list is: " + str(lst))
+
+print("The index of the middle elemelent of lst is: " + str(len(lst)/2))
+
+mid_elem = int(len(lst)/2)
+
+print("The middle element of lst is: " + str(lst[mid_elem]))
+lst.sort(reverse = True)
+
+
+print("The sorted list in decending order is: " + str(lst))
+
+lst.append(lst[0])
+lst.remove(lst[0])
+
+print("The lst removed the first number and put it at the end is: ")
+print(str(lst))
+
+
+
+
+
+
+
