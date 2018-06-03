@@ -1,0 +1,11 @@
+From the Book, Chapter 4 Exercises:
+
+4.13 (Write your solutions as Boolean conditions - they should evaluate to True or False)
+
+4.16 (By dictionary order, they mean alphabetical order)
+
+4.23 (to clarify, the function should take no arguments and should have an input statement within the function)
+
+4.25
+
+Additionally, complete 4.18 OR 4.20. 4.20 requires the use of the .format() method, which we haven't seen yet, but you can read the section starting on page 100 of your textbook.
